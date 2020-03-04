@@ -1,2 +1,2 @@
-# Tap Store
+# App Store CollectionViews
 App Store CollectionViews

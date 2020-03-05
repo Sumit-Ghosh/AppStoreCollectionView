@@ -20,6 +20,7 @@
 		5173343723428CF8003FF47B /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5173343023428CF8003FF47B /* Section.swift */; };
 		5173343823428CF8003FF47B /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5173343123428CF8003FF47B /* Bundle-Decodable.swift */; };
 		5173343A23428D09003FF47B /* appstore.json in Resources */ = {isa = PBXBuildFile; fileRef = 5173343923428D09003FF47B /* appstore.json */; };
+		DA8CBE332410E02100AF4200 /* MediumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CBE322410E02100AF4200 /* MediumCollectionViewCell.swift */; };
 		DAD293CE240E393400D98A39 /* SelfConfiguringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD293CD240E393400D98A39 /* SelfConfiguringCell.swift */; };
 		DAD293D0240E39D100D98A39 /* FeaturedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD293CF240E39D100D98A39 /* FeaturedCell.swift */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,7 @@
 		5173343023428CF8003FF47B /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		5173343123428CF8003FF47B /* Bundle-Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		5173343923428D09003FF47B /* appstore.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = appstore.json; sourceTree = "<group>"; };
+		DA8CBE322410E02100AF4200 /* MediumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumCollectionViewCell.swift; sourceTree = "<group>"; };
 		DAD293CD240E393400D98A39 /* SelfConfiguringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConfiguringCell.swift; sourceTree = "<group>"; };
 		DAD293CF240E39D100D98A39 /* FeaturedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +92,7 @@
 				5173342523428A27003FF47B /* Info.plist */,
 				DAD293CD240E393400D98A39 /* SelfConfiguringCell.swift */,
 				DAD293CF240E39D100D98A39 /* FeaturedCell.swift */,
+				DA8CBE322410E02100AF4200 /* MediumCollectionViewCell.swift */,
 			);
 			path = TapStore;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5173343723428CF8003FF47B /* Section.swift in Sources */,
+				DA8CBE332410E02100AF4200 /* MediumCollectionViewCell.swift in Sources */,
 				5173343523428CF8003FF47B /* GamesViewController.swift in Sources */,
 				5173341823428A25003FF47B /* AppDelegate.swift in Sources */,
 				5173343423428CF8003FF47B /* AppsViewController.swift in Sources */,

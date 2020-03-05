@@ -19,6 +19,10 @@ class FeaturedCell: UICollectionViewCell, SelfConfiguringCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
+        let separatorView = UIView(frame: .zero)
+        separatorView.translatesAutoresizingMaskIntoConstraints = false
+        separatorView.backgroundColor = .quaternaryLabel
+        
         tagline.font = UIFontMetrics.default.scaledFont(for: UIFont.systemFont(ofSize: 12, weight: .bold))
         tagline.textColor = .systemBlue
         
@@ -32,18 +36,19 @@ class FeaturedCell: UICollectionViewCell, SelfConfiguringCell {
         imageView.clipsToBounds = true
         imageView.contentMode = .scaleAspectFit
         
-        let stackView = UIStackView(arrangedSubviews: [tagline, name, subtitle, imageView])
+        let stackView = UIStackView(arrangedSubviews: [separatorView, tagline, name, subtitle, imageView])
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.axis = .vertical
         contentView.addSubview(stackView)
         
         NSLayoutConstraint.activate([
+            separatorView.heightAnchor.constraint(equalToConstant: 1),
             stackView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
             stackView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
             stackView.topAnchor.constraint(equalTo: contentView.topAnchor),
             stackView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor),
         ])
-        
+        stackView.setCustomSpacing(10, after: separatorView)
         stackView.setCustomSpacing(10, after: subtitle)
     
     }

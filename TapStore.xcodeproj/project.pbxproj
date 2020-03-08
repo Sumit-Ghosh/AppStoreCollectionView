@@ -20,6 +20,8 @@
 		5173343723428CF8003FF47B /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5173343023428CF8003FF47B /* Section.swift */; };
 		5173343823428CF8003FF47B /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5173343123428CF8003FF47B /* Bundle-Decodable.swift */; };
 		5173343A23428D09003FF47B /* appstore.json in Resources */ = {isa = PBXBuildFile; fileRef = 5173343923428D09003FF47B /* appstore.json */; };
+		DA10E43124138B9B006B3DA8 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10E43024138B9B006B3DA8 /* SectionHeader.swift */; };
+		DA10E4332413EABB006B3DA8 /* SmallTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10E4322413EABB006B3DA8 /* SmallTableCell.swift */; };
 		DA8CBE332410E02100AF4200 /* MediumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CBE322410E02100AF4200 /* MediumCollectionViewCell.swift */; };
 		DAD293CE240E393400D98A39 /* SelfConfiguringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD293CD240E393400D98A39 /* SelfConfiguringCell.swift */; };
 		DAD293D0240E39D100D98A39 /* FeaturedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD293CF240E39D100D98A39 /* FeaturedCell.swift */; };
@@ -41,6 +43,8 @@
 		5173343023428CF8003FF47B /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		5173343123428CF8003FF47B /* Bundle-Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		5173343923428D09003FF47B /* appstore.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = appstore.json; sourceTree = "<group>"; };
+		DA10E43024138B9B006B3DA8 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		DA10E4322413EABB006B3DA8 /* SmallTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallTableCell.swift; sourceTree = "<group>"; };
 		DA8CBE322410E02100AF4200 /* MediumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumCollectionViewCell.swift; sourceTree = "<group>"; };
 		DAD293CD240E393400D98A39 /* SelfConfiguringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConfiguringCell.swift; sourceTree = "<group>"; };
 		DAD293CF240E39D100D98A39 /* FeaturedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCell.swift; sourceTree = "<group>"; };
@@ -93,6 +97,8 @@
 				DAD293CD240E393400D98A39 /* SelfConfiguringCell.swift */,
 				DAD293CF240E39D100D98A39 /* FeaturedCell.swift */,
 				DA8CBE322410E02100AF4200 /* MediumCollectionViewCell.swift */,
+				DA10E43024138B9B006B3DA8 /* SectionHeader.swift */,
+				DA10E4322413EABB006B3DA8 /* SmallTableCell.swift */,
 			);
 			path = TapStore;
 			sourceTree = "<group>";
@@ -175,12 +181,14 @@
 				5173341823428A25003FF47B /* AppDelegate.swift in Sources */,
 				5173343423428CF8003FF47B /* AppsViewController.swift in Sources */,
 				5173343323428CF8003FF47B /* ArcadeViewController.swift in Sources */,
+				DA10E4332413EABB006B3DA8 /* SmallTableCell.swift in Sources */,
 				5173343623428CF8003FF47B /* App.swift in Sources */,
 				5173343823428CF8003FF47B /* Bundle-Decodable.swift in Sources */,
 				DAD293D0240E39D100D98A39 /* FeaturedCell.swift in Sources */,
 				DAD293CE240E393400D98A39 /* SelfConfiguringCell.swift in Sources */,
 				5173343223428CF8003FF47B /* SearchViewController.swift in Sources */,
 				5173341A23428A25003FF47B /* SceneDelegate.swift in Sources */,
+				DA10E43124138B9B006B3DA8 /* SectionHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

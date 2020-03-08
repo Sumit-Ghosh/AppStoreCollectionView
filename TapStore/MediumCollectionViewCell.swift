@@ -41,6 +41,8 @@ class MediumCollectionViewCell: UICollectionViewCell, SelfConfiguringCell {
         
         let outerStackView = UIStackView(arrangedSubviews: [imageView, innerStackView, buyButton])
         outerStackView.translatesAutoresizingMaskIntoConstraints = false
+        outerStackView.alignment = .center
+        outerStackView.spacing = 10
         contentView.addSubview(outerStackView)
         
         NSLayoutConstraint.activate([

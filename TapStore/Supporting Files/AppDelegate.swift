@@ -2,16 +2,14 @@
 //  AppDelegate.swift
 //  TapStore
 //
-//  Created by Paul Hudson on 01/10/2019.
-//  Copyright © 2019 Hacking with Swift. All rights reserved.
+//  Created by Sumit Ghosh on 03/21/2020.
+//  Copyright © 2020 Sumit Ghosh. All rights reserved.
 //
 
 import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

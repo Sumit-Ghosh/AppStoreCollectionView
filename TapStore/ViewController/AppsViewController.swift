@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  TapStore
 //
-//  Created by Paul Hudson on 01/10/2019.
-//  Copyright © 2019 Hacking with Swift. All rights reserved.
+//  Created by Sumit Ghosh on 03/21/2020.
+//  Copyright © 2020 Sumit Ghosh. All rights reserved.
 //
 
 import UIKit
@@ -16,19 +16,26 @@ class AppsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        setUpCollectionView()
+        registerCells()
+        
+        createDataSource()
+        reloadData()
+    }
+    
+    func setUpCollectionView() {
         collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: createCompositionalLayout())
         collectionView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         collectionView.backgroundColor = .systemBackground
         view.addSubview(collectionView)
-        
+    }
+    
+    func registerCells() {
         collectionView.register(SectionHeader.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: SectionHeader.reuseIdentifier)
         collectionView.register(FeaturedCell.self, forCellWithReuseIdentifier: FeaturedCell.reuseIdentifier)
         collectionView.register(MediumCollectionViewCell.self, forCellWithReuseIdentifier: MediumCollectionViewCell.reuseIdentifier)
         collectionView.register(SmallTableCell.self, forCellWithReuseIdentifier: SmallTableCell.reuseIdentifier)
-        
-        createDataSource()
-        reloadData()
     }
     
     func configure<T: SelfConfiguringCell>(_ cellType: T.Type, with app: App, for indexPath: IndexPath) -> T {

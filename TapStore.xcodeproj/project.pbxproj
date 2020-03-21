@@ -80,27 +80,75 @@
 		5173341623428A25003FF47B /* TapStore */ = {
 			isa = PBXGroup;
 			children = (
-				5173341723428A25003FF47B /* AppDelegate.swift */,
-				5173341923428A25003FF47B /* SceneDelegate.swift */,
+				DA10E4382415403F006B3DA8 /* Supporting Files */,
+				DA10E43624154019006B3DA8 /* ViewController */,
+				DA10E4352415400E006B3DA8 /* View */,
+				DA10E43424153FE2006B3DA8 /* Model */,
+				5173343123428CF8003FF47B /* Bundle-Decodable.swift */,
+				5173343923428D09003FF47B /* appstore.json */,
+				5173342523428A27003FF47B /* Info.plist */,
+				5173342023428A27003FF47B /* Assets.xcassets */,
+			);
+			path = TapStore;
+			sourceTree = "<group>";
+		};
+		DA10E43424153FE2006B3DA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5173343023428CF8003FF47B /* Section.swift */,
+				5173342F23428CF8003FF47B /* App.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DA10E4352415400E006B3DA8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA10E43B2415417F006B3DA8 /* CollectionViewCellAndHeader */,
+				DA10E43A24154172006B3DA8 /* StoryBoard */,
+				5173341D23428A25003FF47B /* Main.storyboard */,
+				5173342223428A27003FF47B /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DA10E43624154019006B3DA8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
 				5173342D23428CF8003FF47B /* AppsViewController.swift */,
 				5173342C23428CF8003FF47B /* ArcadeViewController.swift */,
 				5173342E23428CF8003FF47B /* GamesViewController.swift */,
 				5173342B23428CF8003FF47B /* SearchViewController.swift */,
-				5173343023428CF8003FF47B /* Section.swift */,
-				5173342F23428CF8003FF47B /* App.swift */,
-				5173343123428CF8003FF47B /* Bundle-Decodable.swift */,
-				5173343923428D09003FF47B /* appstore.json */,
-				5173341D23428A25003FF47B /* Main.storyboard */,
-				5173342023428A27003FF47B /* Assets.xcassets */,
-				5173342223428A27003FF47B /* LaunchScreen.storyboard */,
-				5173342523428A27003FF47B /* Info.plist */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DA10E4382415403F006B3DA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5173341723428A25003FF47B /* AppDelegate.swift */,
+				5173341923428A25003FF47B /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA10E43A24154172006B3DA8 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		DA10E43B2415417F006B3DA8 /* CollectionViewCellAndHeader */ = {
+			isa = PBXGroup;
+			children = (
 				DAD293CD240E393400D98A39 /* SelfConfiguringCell.swift */,
 				DAD293CF240E39D100D98A39 /* FeaturedCell.swift */,
 				DA8CBE322410E02100AF4200 /* MediumCollectionViewCell.swift */,
-				DA10E43024138B9B006B3DA8 /* SectionHeader.swift */,
 				DA10E4322413EABB006B3DA8 /* SmallTableCell.swift */,
+				DA10E43024138B9B006B3DA8 /* SectionHeader.swift */,
 			);
-			path = TapStore;
+			path = CollectionViewCellAndHeader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
